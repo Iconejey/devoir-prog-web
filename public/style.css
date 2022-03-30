@@ -134,3 +134,9 @@ a.btn:hover {
 		transform: translateY(-200%);
 	}
 }
+
+@media screen and (max-width: 501px) {
+	body {
+		padding: 4em 5%;
+	}
+}
