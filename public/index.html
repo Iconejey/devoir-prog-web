@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Coffre fort</title>
+		<link rel="icon" href="./img/icon.png" />
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./main.js" defer></script>
+	</head>
+	<body>
+		<img src="./img/undraw_vault_re_s4my.svg" />
+
+		<main>
+			<section id="login">
+				<h1>Connexion</h1>
+				<p>Connectez vous pour accéder à vôtre fichier sécurisé.</p>
+
+				<form>
+					<input required type="email" name="email" placeholder="Courriel" />
+					<input required type="password" name="password" placeholder="Mot de passe" />
+
+					<div class="btns">
+						<a id="sign-up" class="btn">S'inscrire</a>
+						<a id="sign-in" class="btn">Se connecter</a>
+					</div>
+				</form>
+			</section>
+
+			<section id="file">
+				<h1>Coffre fort ouvert !</h1>
+				<p>Vous pouvez maintenant accéder à vôtre fichier sécurisé ou le remplacer.</p>
+
+				<form>
+					<input required type="file" name="file" />
+
+					<div class="btns">
+						<a id="open-file" class="btn" target="_blank">Ouvrir le fichier</a>
+					</div>
+				</form>
+			</section>
+		</main>
+	</body>
+</html>
